@@ -1,0 +1,9 @@
+aws-java-sdk-bundle-1.12.262.jar
+hadoop-aws-3.3.4.jar
+smart_meter_measurements.csv
+smart_meter_events.csv
+superset_config/__pycache__
+data/minio
+notebooks/metastore_db
+notebooks/spark-warehouse
+notebooks/derby.log
