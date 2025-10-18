@@ -7,3 +7,4 @@ data/minio
 notebooks/metastore_db
 notebooks/spark-warehouse
 notebooks/derby.log
+.vscode
