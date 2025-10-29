@@ -2,8 +2,14 @@ import os
 
 FEATURE_FLAGS = {
     "EMBEDDED_SUPERSET": True,
+    "ENABLE_TEMPLATE_PROCESSING":True
 }
-
+HTML_SANITIZATION_SCHEMA_EXTENSIONS = {
+    "attributes":{
+        "*":["style","className"],
+    },
+    "tagNames":["style"]
+}
 GUEST_ROLE_NAME = "Public"
 
 ENABLE_CORS = True

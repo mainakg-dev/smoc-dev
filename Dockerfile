@@ -1,6 +1,6 @@
 FROM apache/superset:latest
 
-# Switch to root user to install packages
+# Switch to root user 
 USER root
 
 
@@ -8,7 +8,7 @@ USER root
 RUN . /app/.venv/bin/activate && \
     python -m ensurepip --upgrade && \
     python -m pip install --upgrade pip && \
-    python -m pip install 'trino[sqlalchemy]' 'flask-cors'
+    python -m pip install 'trino' 'flask-cors'
 
 # Switch back to the superset user
 USER superset
